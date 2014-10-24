@@ -1,0 +1,31 @@
+
+* { margin: 0; padding: 0; }
+
+body { font: 12px/2em Verdana, sans-serif; }
+
+.wrapper { width: 50%; margin: 0 auto; }
+
+h1 { font: 4em/1em Trebuchet, serif; margin: 0.5em 0;}
+
+p { margin-bottom: 0.5em; }
+
+form .field { margin-bottom: 1em; clear: left; }
+form label, form span.label { width: 100px; float: left; }
+form input[type=text] { width: 200px; padding: 3px; }
+form select { width: 204px; }
+form div.checkbox, form div.radio { float: left; }
+form div.checkbox label { width: 300px; padding-right: 5px;}
+form div.radio input { margin-right: 8px; }
+form textarea { width: 200px; height: 86px; float: left; }
+form .info { float: left; margin-left: 5px; }
+form .counter { clear: left; float: left; }
+form .buttons { clear: both; float: left; margin-top: 1em; }
+form .buttons input { padding: 4px; }
+
+form .invalid input, form .invalid select, input.error, select.error { border: 1px solid #c66; background: #fee;}
+form div.radio.invalid { background: #fee; }
+div#errors { margin-bottom: 1em; padding: 0.5em; border: 1px solid #c66; background: #fee;  }
+div#errors ul { margin-left: 2em; }
+div#errors li { margin-bottom: 0.5em; }
+
+.hidden { display: none; }
